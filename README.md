@@ -28,7 +28,7 @@ edit and delete products as well as categories.
 ### 1. Clone repo
 
 ```
-$ git clone git@github.com:ritika-kumari12/Wellness-Junction.git
+$ git clone git@github.com:ritikakumari12/Wellness-Junction.git
 $ cd Wellness-Junction
 ```
 
