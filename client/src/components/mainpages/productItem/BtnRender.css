@@ -1,0 +1,41 @@
+/* BtnRender.css (Create a new CSS file for BtnRender component) */
+
+.row_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the buttons */
+  
+  #btn_buy,
+  #btn_view {
+    padding: 8px 16px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btn_buy {
+    background-color: #555;
+  }
+  
+  #btn_buy:hover {
+    background-color: #444;
+    transform: scale(1.05);
+  }
+  
+  #btn_view {
+    background-color: #555;
+  }
+  
+  #btn_view:hover {
+    background-color: #444;
+    transform: scale(1.05);
+  }
+  

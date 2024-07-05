@@ -1,0 +1,53 @@
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin: 20px 0;
+}
+/* Rest of your existing styles */
+
+/* CSS for admin section */
+.admin-section {
+    display: flex;
+ /* Align items vertically centered */
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+  }
+  
+  .admin-section span {
+    margin-right: 10px;
+    font-size: large;
+  }
+  
+  .admin-section input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin-right: 10px; */
+    border: 2px solid #555;
+    border-radius: 4px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .admin-section input[type="checkbox"]:checked {
+    background-color: #555;
+  }
+  
+  .admin-section button {
+    padding: 8px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-section button:hover {
+    background-color: #444;
+  }
+  

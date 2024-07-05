@@ -1,0 +1,85 @@
+/* Cart.css */
+
+.detail.cart {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .detail.cart img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .box-detail {
+    flex: 1;
+  }
+  
+  .box-detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .box-detail h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .box-detail p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .amount {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .amount button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .amount span {
+    margin: 0 10px;
+  }
+  
+  .delete {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .total h3 {
+    font-size: 1.2rem;
+  }
+  
+  .total button {
+    padding: 8px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .total button:hover {
+    background-color: #444;
+  }
+  

@@ -1,0 +1,24 @@
+/* LoadMore.css (Create a new CSS file for LoadMore component) */
+
+.load_more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .load_more button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .load_more button:hover {
+    background-color: #444;
+  }
+  

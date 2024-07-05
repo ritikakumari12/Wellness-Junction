@@ -1,0 +1,81 @@
+/* DetailProduct.css (Create a new CSS file for DetailProduct component) */
+
+/* Container for the entire detail section */
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid #ddd;
+  }
+  
+  .detail img {
+    max-width: 500px;
+  }
+
+  /* Box-like structure for product details */
+  .box-detail {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .box-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .box-detail span {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .box-detail p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .box-detail ul {
+    display: block;
+    list-style: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .box-detail ul li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .box-detail .cart {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .box-detail .cart:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+
+  /* Related products section */
+  /* .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } */
+  
+  /* Product card for related products */
+  
+  /* ... (Add more styles as needed) ... */
+  

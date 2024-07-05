@@ -1,0 +1,71 @@
+/* Filters.css (Create a new CSS file for Filters component) */
+
+.filter_menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .filter_menu .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter_menu .row span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .filter_menu select,
+  .filter_menu input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    flex: 1;
+  }
+  
+  .filter_menu select {
+    max-width: 200px;
+    margin-right: 10px;
+  }
+  
+  .filter_menu input {
+    max-width: 300px;
+  }
+  
+  /* Styling for the sort dropdown */
+  
+  .filter_menu select option {
+    font-size: 14px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  
+  @media screen and (max-width: 600px) {
+    .filter_menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .filter_menu .row {
+      margin-bottom: 5px;
+    }
+  
+    .filter_menu select {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .filter_menu input {
+      max-width: 100%;
+    }
+  }
+  
